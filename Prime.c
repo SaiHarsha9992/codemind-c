@@ -10,12 +10,12 @@ int main()
             c++;
         }
     }
-    if(c==2)
-    {
-        printf("Prime");
-    }
-    else
-    {
-        printf("Not Prime");
-    }
+      if(c==2)
+        {
+            printf("Prime");
+        }
+        else
+        {
+            printf("Not Prime");
+        }
 }

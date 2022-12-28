@@ -40,7 +40,3 @@ void bill(int u)
 
 
 
-
-
-
-

@@ -1,22 +1,19 @@
 #include <stdio.h>
 int main ()
 {
-    int n , i ;
-    scanf( " %d ", &n );
-    for( i = 1 ; i <= n ; i++ )
+    int x ;
+    scanf ( "%d" , &x ) ;
+    for ( int i = 1 ; i <= x ; i++ )
     {
-        for(int j = 1 ; j <= i ; j++ )
+        for ( int j = x ; j > i ; j-- )
         {
-            if(j==1 || i==j || i==n )
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
+            printf (" ") ;
         }
-        printf("
-");
+        for ( int k = 1 ; k <= 2 * i - 1 ; k++ )
+        {
+            printf ( "%d" , i ) ;
+        }
+        printf ("
+") ;
     }
 }
